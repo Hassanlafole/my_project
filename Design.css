@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(/Night.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.right nav ul{
+    margin-right: 220px;
+    margin-bottom: 520px;
+}
+nav ul{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 30px;
+    border: 1px solid #fff;
+    padding: 9px 50px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: rgb(83, 78, 78);
+}
+nav ul li a:hover{
+    color: aqua;
+}
+.left{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 140px;
+}
+.left p{
+    line-height: 40px;
+    margin-top: 15px;
+}
+.left h2{
+    border: 1px solid #fff;
+    margin-top: 50px;
+    padding: 10px 40px;
+}
+.left h2:hover{
+    background-color: rgb(48, 46, 46);
+}
+/* HOME PAGE END */
+.team{
+    background-color:royalblue;
+}
+.container-two nav ul li{
+    margin-top: 20px;
+}
+.container-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-two h1{
+    color: white;
+    font-size: 50px;
+}
+.container-two h1 span{
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.students{
+    flex-basis: 30%;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    
+}
+.students img{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.students img{
+    width: 80%;
+}
+/* TEAM PAGE END */
+.food{
+    background-color: blueviolet;
+}
+.cunto{
+    flex-basis: 30%;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+.cunto img{
+    width: 90%;
+    
+}
+button{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    border-style: none;
+    width: 110px;
+    padding: 5px 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* FOOD PAGE END */
+.contact{
+    background-color:coral;
+}
+.col-1 img{
+    width: 70%;
+    padding-bottom: 60px;
+}
+form{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 450px;
+    margin-right: 260px;
+    margin-top: -620px;
+    
+}
+.col-2{
+    margin-top: -630px;
+}
+form h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 20px;
+}
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #1149ee;
+    font-size: 20px;
+  }
+input[type=submit]{
+    background-color: orangered;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+    color: white;
+    padding: 14px 35px;
+    margin: 4px 230px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    color: blue;
+    background-color: azure;
+}
+
